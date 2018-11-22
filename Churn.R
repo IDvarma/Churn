@@ -8,7 +8,7 @@ library(descr)
 library(MASS)
 
 #Reading Data
-df<- read.csv(file="C://Users/idv_1/Downloads/Churn.csv",header = T)
+df<- read.csv(file="Churn.csv",header = T)
 df$orderDate <- as.Date(df$orderDate,"%Y-%m-%d")
 str(df)
 summary(df)
